@@ -1378,7 +1378,8 @@ Feauture One
     position: relative;
     display: block;
     background: var(--thm-white);
-    padding: 120px 0px 90px;
+    /* padding: 120px 0px 90px; */
+    padding: 80px 0px 90px;
     z-index: 1;
 }
 
@@ -5656,5 +5657,5 @@ font-size: 16px !important;
     background-color: #001837 !important;
   }
   .main-slider.main-slider-one{
-  margin-top: 90px !important;
+  margin-top: 80px !important;
   }
