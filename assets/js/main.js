@@ -40,129 +40,129 @@
 
 
     // ===Main Slider Three Carousel ===
-    if ($(".main-slider-three__carousel").length > 0) {
-        var totalSlides2 = $(".main-slider-three__carousel .swiper-slide").length;
-        var gridCarusel = new Swiper(".main-slider-three__carousel", {
-            preloadImages: false,
-            loop: true,
-            freeMode: false,
-            slidesPerView: 1,
-            spaceBetween: 0,
-            grabCursor: true,
-            mousewheel: false,
-            speed: 1500,
-            effect: "slide",
-            autoplay: {
-                delay: 9000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".main-slider-three__pagination",
-                type: "progressbar",
-            },
-            navigation: {
-                nextEl: ".main-slider-three__pagination",
-                prevEl: ".main-slider-three__pagination",
-            },
-            breakpoints: {
-                1600: {
-                    slidesPerView: 1,
-                },
-                1200: {
-                    slidesPerView: 1,
-                },
-                992: {
-                    slidesPerView: 1,
-                },
-                768: {
-                    slidesPerView: 1,
-                },
-            },
-        });
+    // if ($(".main-slider-three__carousel").length > 0) {
+    //     var totalSlides2 = $(".main-slider-three__carousel .swiper-slide").length;
+    //     var gridCarusel = new Swiper(".main-slider-three__carousel", {
+    //         preloadImages: false,
+    //         loop: true,
+    //         freeMode: false,
+    //         slidesPerView: 1,
+    //         spaceBetween: 0,
+    //         grabCursor: true,
+    //         mousewheel: false,
+    //         speed: 1500,
+    //         effect: "slide",
+    //         autoplay: {
+    //             delay: 9000,
+    //             disableOnInteraction: false,
+    //         },
+    //         pagination: {
+    //             el: ".main-slider-three__pagination",
+    //             type: "progressbar",
+    //         },
+    //         navigation: {
+    //             nextEl: ".main-slider-three__pagination",
+    //             prevEl: ".main-slider-three__pagination",
+    //         },
+    //         breakpoints: {
+    //             1600: {
+    //                 slidesPerView: 1,
+    //             },
+    //             1200: {
+    //                 slidesPerView: 1,
+    //             },
+    //             992: {
+    //                 slidesPerView: 1,
+    //             },
+    //             768: {
+    //                 slidesPerView: 1,
+    //             },
+    //         },
+    //     });
 
-        gridCarusel.on("slideChange", function () {
-            var csli = gridCarusel.realIndex + 1,
-                curnum = $("#current2");
-            TweenMax.to(curnum, 0.2, {
-                force3D: true,
-                y: -10,
-                opacity: 0,
-                ease: Power2.easeOut,
-                onComplete: function () {
-                    TweenMax.to(curnum, 0.1, {
-                        force3D: true,
-                        y: 10,
-                    });
-                    curnum.html("0" + csli);
-                },
-            });
-            TweenMax.to(curnum, 0.2, {
-                force3D: true,
-                y: 0,
-                delay: 0.3,
-                opacity: 1,
-                ease: Power2.easeOut,
-            });
-        });
+    //     gridCarusel.on("slideChange", function () {
+    //         var csli = gridCarusel.realIndex + 1,
+    //             curnum = $("#current2");
+    //         TweenMax.to(curnum, 0.2, {
+    //             force3D: true,
+    //             y: -10,
+    //             opacity: 0,
+    //             ease: Power2.easeOut,
+    //             onComplete: function () {
+    //                 TweenMax.to(curnum, 0.1, {
+    //                     force3D: true,
+    //                     y: 10,
+    //                 });
+    //                 curnum.html("0" + csli);
+    //             },
+    //         });
+    //         TweenMax.to(curnum, 0.2, {
+    //             force3D: true,
+    //             y: 0,
+    //             delay: 0.3,
+    //             opacity: 1,
+    //             ease: Power2.easeOut,
+    //         });
+    //     });
 
-        var totalSlides2 = gridCarusel.slides.length - 6;
-        $("#total2").html(totalSlides2);
-    }
+    //     var totalSlides2 = gridCarusel.slides.length - 6;
+    //     $("#total2").html(totalSlides2);
+    // }
 
 
 
 
     // Banner Slider //Home One
-    if ($(".thm-swiper__slider-two").length > 0) {
-        var bannerSlider = new Swiper(".thm-swiper__slider-two", {
-            spaceBetween: 0,
-            slidesPerView: 1,
-            mousewheel: false,
-            height: 500,
-            grabCursor: true,
-            loop: true,
-            effect: "fade",
-            speed: 1400,
-            autoplay: {
-                delay: 10000,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                type: "progressbar",
-            },
-            navigation: {
-                prevEl: "#main-slider-two__swiper-button-prev",
-                nextEl: "#main-slider-two__swiper-button-next",
-            },
-        });
-        bannerSlider.on("slideChange", function () {
-            var csli = bannerSlider.realIndex + 1,
-                curnum = $("#current");
-            TweenMax.to(curnum, 0.2, {
-                force3D: true,
-                y: -10,
-                opacity: 0,
-                ease: Power2.easeOut,
-                onComplete: function () {
-                    TweenMax.to(curnum, 0.1, {
-                        force3D: true,
-                        y: 10,
-                    });
-                    curnum.html("" + csli);
-                },
-            });
-            TweenMax.to(curnum, 0.2, {
-                force3D: true,
-                y: 0,
-                delay: 0.3,
-                opacity: 1,
-                ease: Power2.easeOut,
-            });
-        });
+    // if ($(".thm-swiper__slider-two").length > 0) {
+    //     var bannerSlider = new Swiper(".thm-swiper__slider-two", {
+    //         spaceBetween: 0,
+    //         slidesPerView: 1,
+    //         mousewheel: false,
+    //         height: 500,
+    //         grabCursor: true,
+    //         loop: true,
+    //         effect: "fade",
+    //         speed: 1400,
+    //         autoplay: {
+    //             delay: 10000,
+    //         },
+    //         pagination: {
+    //             el: ".swiper-pagination",
+    //             type: "progressbar",
+    //         },
+    //         navigation: {
+    //             prevEl: "#main-slider-two__swiper-button-prev",
+    //             nextEl: "#main-slider-two__swiper-button-next",
+    //         },
+    //     });
+    //     bannerSlider.on("slideChange", function () {
+    //         var csli = bannerSlider.realIndex + 1,
+    //             curnum = $("#current");
+    //         TweenMax.to(curnum, 0.2, {
+    //             force3D: true,
+    //             y: -10,
+    //             opacity: 0,
+    //             ease: Power2.easeOut,
+    //             onComplete: function () {
+    //                 TweenMax.to(curnum, 0.1, {
+    //                     force3D: true,
+    //                     y: 10,
+    //                 });
+    //                 curnum.html("" + csli);
+    //             },
+    //         });
+    //         TweenMax.to(curnum, 0.2, {
+    //             force3D: true,
+    //             y: 0,
+    //             delay: 0.3,
+    //             opacity: 1,
+    //             ease: Power2.easeOut,
+    //         });
+    //     });
 
-        var totalSlides = bannerSlider.slides.length - 2;
-        $("#total").html("" + totalSlides);
-    }
+    //     var totalSlides = bannerSlider.slides.length - 2;
+    //     $("#total").html("" + totalSlides);
+    // }
 
     //Jquery Spinner / Quantity Spinner
     if ($(".quantity-spinner").length) {

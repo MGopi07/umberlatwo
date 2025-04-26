@@ -397,8 +397,10 @@
 }
 
 .menu-area__inner {
-    position: relative;
+    /* position: relative; */
+    position: fixed;
     display: block;
+  
 }
 
 .menu-nav {
@@ -890,4 +892,12 @@
 
 .main-header-one.style4 .menu-area .mobile-nav-toggler:hover {
     color: var(--thm-primary);
+}
+
+/*---------------*/
+
+.menu-area__inner {
+    background-color: #11161f;
+    width: 100%;
+    padding: 0px 20px;
 }

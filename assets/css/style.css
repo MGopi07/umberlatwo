@@ -568,7 +568,7 @@ label {
     position: static;
     max-width: 1320px;
     width: 100%;
-    padding: 0px 15px;
+    /* padding: 0px 15px; */
     margin: 0 auto;
 }
 
@@ -5657,5 +5657,7 @@ font-size: 16px !important;
     background-color: #001837 !important;
   }
   .main-slider.main-slider-one{
-  margin-top: 80px !important;
+  margin-top: 85px !important;
   }
+ 
+  
