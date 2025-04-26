@@ -285,7 +285,8 @@
     line-height: 1;
     color: var(--thm-white);
     display: none;
-    padding: 34px 0 35px;
+    /* padding: 34px 0 35px; */
+    padding: 20px 0 35px;
     transition: all 200ms linear;
     transition-delay: 0.1s;
     z-index: 5;
