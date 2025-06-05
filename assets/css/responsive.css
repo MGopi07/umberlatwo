@@ -1663,6 +1663,9 @@
   .main-header-four__top {
     display: none;
   }
+  .menu-area .mobile-nav-toggler {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 1199px) {
