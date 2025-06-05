@@ -283,7 +283,8 @@
   font-size: 30px;
   cursor: pointer;
   line-height: 1;
-  color: var(--thm-white);
+  /* color: var(--thm-white); */
+  color: black;
   display: none;
   /* padding: 34px 0 35px; */
   padding: 20px 0 35px;
@@ -441,11 +442,12 @@
 .navbar-wrap ul li a {
   position: relative;
   display: block;
-  color: var(--thm-white);
+  /* color: var(--thm-white); */
+  color: black;
   font-size: 16px;
   /* line-height: 24px; */
   line-height: 15px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: capitalize;
   font-family: var(--thm-font);
   padding: 43.5px 0px 42.5px;
@@ -892,7 +894,7 @@
     /* position: relative; */
     position: fixed !important;
     display: block;
-    background-color: #11161f;
+    background-color: white;
     width: 100%;
     padding: 0px 20px !important;
   }
@@ -901,7 +903,7 @@
     /* position: relative; */
     position: fixed !important;
     display: block;
-    background-color: #11161f;
+    background-color:white ;
     width: 100%;
     padding: 0px 20px !important;
   }
@@ -911,7 +913,7 @@
   .menu-area__inner {
     position: fixed !important;
     display: block;
-    background-color: #11161f;
+    background-color: white;
     width: 100%;
     padding: 0px 20px !important;
   }

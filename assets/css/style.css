@@ -5646,18 +5646,25 @@ font-size: 16px !important;
     /* border-radius: 10px; */
   }
   
+   .main-slider.main-slider-one{
+  margin-top: 85px !important;
+  }
   /* Optional: Add some space between carousel controls */
   @media (max-width: 570px) {
     .mobile_view_about{
       flex-direction: column-reverse;
     }
+    .main-slider.main-slider-one{
+  margin-top: 75px !important;
+  }
   }  
 
   .main-header.main-header-one{
     background-color: #001837 !important;
   }
-  .main-slider.main-slider-one{
-  margin-top: 85px !important;
-  }
- 
   
+ 
+  /*--------------*/
+.logo-box a img{
+    width: 180px !important;
+}

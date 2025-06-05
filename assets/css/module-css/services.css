@@ -32,6 +32,7 @@
     margin-bottom: 30px;
     overflow: hidden;
     z-index: 1;
+
 }
 
 .service-one__single::after {
@@ -40,7 +41,8 @@
     left: 0px;
     bottom: 0px;
     right: 0px;
-    border: 1px solid #242b39;
+    /* border: 1px solid #242b39; */
+    border: 1px solid var(--thm-primary);
     content: "";
 }
 
@@ -52,7 +54,8 @@
     right: 0px;
     transform: scaleX(0.8) rotateX(0deg);
     transition: all 0.4s linear;
-    border: 1px solid var(--thm-primary);
+    /* border: 1px solid var(--thm-primary); */
+    border: 1px solid white;
     border-radius: 0px;
     opacity: 0;
     content: "";
