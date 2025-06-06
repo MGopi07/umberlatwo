@@ -677,6 +677,7 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+  
   .main-header-one__right {
     display: none;
   }
@@ -1777,6 +1778,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+  
   #main-slider-one__pagination {
     display: none;
   }
