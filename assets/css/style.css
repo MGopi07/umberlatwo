@@ -5652,13 +5652,19 @@ Project Four Css
 .main-slider.main-slider-one {
   margin-top: 85px !important;
 }
+@media (min-width: 1400px){
+    .main-slider.main-slider-one{
+        /* margin-top: 125px !important; */
+    }
+}
 /* Optional: Add some space between carousel controls */
 @media (max-width: 570px) {
   .mobile_view_about {
     flex-direction: column-reverse;
   }
   .main-slider.main-slider-one {
-    margin-top: 75px !important;
+    /* margin-top: 75px !important; */
+    margin-top: 65px !important;
   }
 }
 
@@ -5676,7 +5682,7 @@ Project Four Css
 .desktop_view {
   display: block !important;
 }
-.about-one{
+.about-one {
   padding-top: 50px;
 }
 @media (max-width: 570px) {
@@ -5686,7 +5692,11 @@ Project Four Css
   .desktop_view {
     display: none !important;
   }
-  .about-one{
-  padding-top: 10px;
+  .about-one {
+    padding-top: 10px;
+  }
 }
+/*----------*/
+.list-group.list-group-flush li {
+  background: #f5f5f8;
 }
